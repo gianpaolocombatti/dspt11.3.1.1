@@ -16,5 +16,5 @@ setup(
     keywords='reddit',  # Optional
     packages=['mymodule'],  # Required
     python_requires='>=3.6, <4',
-    install_requires=[],  # Optional
+    install_requires=['pandas', 'psycopg2'],  # Optional
 )
