@@ -1,6 +1,7 @@
 import psycopg2
 import pandas as pd
 import os
+from data_model import DB
 
 dbname = os.environ['PG_DB']
 user = os.environ['PG_USER']
