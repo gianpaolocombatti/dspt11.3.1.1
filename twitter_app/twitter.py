@@ -7,6 +7,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///twitter_db.sqlite3'
 DB.init_app(app)
 
+
 @app.route('/')
 def landing():
     user_name = request.args['user']
